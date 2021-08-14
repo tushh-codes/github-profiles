@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'poppins', sans-serif;
+  margin: 0;
+  background: #0f0c29; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+input {
+  background-color: #0f0c29;
+  border-radius: 10px;
+  padding: 1rem;
+  color: white;
+  border: none;
+  font-family: inherit;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  width: 400px;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+input::placeholder {
+  color: #bbb;
+}
+input:focus {
+  outline: none;
+}
+
+.card {
+  background: #0f0c29; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #46829c,
+    #302b63,
+    #1e1857
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #46829c,
+    #302b63,
+    #0f0c29
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  display: flex;
+  padding: 3rem;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px 10px rgba(0, 0, 0, 0.3);
+  width: 750px;
+  max-width: 800px;
+}
+
+.avatar {
+  height: 150px;
+  width: 150px;
+  border: 10px solid #1e1857;
+  border-radius: 50%;
+}
+/* .img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.user_info {
+  margin-left: 2rem;
+  color: rgb(200, 200, 200);
+}
+
+.user_info h2 {
+  margin-top: 0;
+}
+
+.user_info ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  max-width: 400px;
+  list-style-type: none;
+}
+.user_info ul li {
+  display: flex;
+  align-items: center;
+}
+.user_info ul li strong {
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+}
+
+.repo {
+  background-color: #0f0c29;
+  display: inline-block;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 5px;
+}
